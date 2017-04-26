@@ -10,8 +10,6 @@
     
     <title>
         
-            归档: 2017 | 
-        
         chaoge
     </title>
 
@@ -58,7 +56,7 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://yoursite.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="归档: 2017 | chaoge">
+    <meta property="og:title" content="chaoge">
     <meta property="og:description" content="student">
     
 
@@ -221,157 +219,412 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
     
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
 
-    <!-- Normal Post -->
-    
+    <!-- Left aligned menu below button -->
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
         
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+
+        <!--
+        <li class="mdl-menu__item">
+            Some Action
+        </li>
+        -->
+    </ul>
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         
             <!-- Random Thumbnail -->
             <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
+            <script>
+    var randomNum = Math.floor(Math.random() * 19 + 1);
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/04/26/第二章/"></a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/04/26/第二章/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="Lian qian chao's avatar">
-            </div>
-            <div>
-                <strong>Lian qian chao</strong>
-                <span>4月 26, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                
-            </span>
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/04/23/第一章/"></a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            
-#第一章&emsp;数据库设计#一、良好的数据库设计优点
-...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/04/23/第一章/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="Lian qian chao's avatar">
-            </div>
-            <div>
-                <strong>Lian qian chao</strong>
-                <span>4月 23, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                
-            </span>
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-
-    
-
-    
-        <script>
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
     $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
 </script>
 
+        
+    
+            <p class="article-headline-p">
+                
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>Lian qian chao</strong>
+        <span>4月 26, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        
+    </ul>
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=&url=http://yoursite.com//2017/04/26/第二章/index.html&pic=&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=&url=http://yoursite.com//2017/04/26/第二章/index.html&via=Lian qian chao" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com//2017/04/26/第二章/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://yoursite.com//2017/04/26/第二章/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p><link href="http://cdn.bootcss.com/highlight.js/8.0/styles/monokai_sublime.min.css" rel="stylesheet">  </p>
+<p><script src="http://cdn.bootcss.com/highlight.js/8.0/highlight.min.js"></script>  </p>
+<p><script>hljs.initHighlightingOnLoad();</script></p>
+<p>#第二章#</p>
+<p>###一、使用SQL语句管理数据库###<br>（1）、创建数据库<br></p>
+<p>创建数据库的实例：</p>
+<pre><code>create database HR(数据库名称)
+on [primary]    --文件组，默认，[]可以省略
+(
+   name=&apos;test_mdf&apos;,    --主数据文件的逻辑名
+   filename=&apos;e:\yujun\test_mdf.mdf&apos;, --主数据文件的物理名
+   size=3mb,    --主数据初始大小
+   maxsize=100mb    ,--主数据最大空间大小
+   filegrowth=15% --主数据文件的增长率(可以是百分百，也可以是具体的数值：1mb)
+)
+log on
+(
+   name=&apos;test_ldf&apos;,    --日志数据文件的逻辑名
+   filename=&apos;e:\yujun\test_ldf.ldf&apos;, --日志数据文件的物理名
+   size=3mb,    --日志数据初始大小
+   maxsize=100mb    ,--日志数据最大空间大小
+   filegrowth=1mb --日志数据文件的增长率(可以是百分百，也可以是具体的数值：1mb)
+)
+</code></pre><p><strong>注意事项：</strong></p>
+<ol>
+<li>创建数据库指定的数据文件大小必须大于等于3MB。</li>
+<li>filename参数指定的路径必须存在，否则将报错。</li>
+</ol>
+<p>（2）、删除数据库库<br></p>
+<ol>
+<li><p>删除单个数据库的语法：</p>
+<pre><code>drop database 数据库名称
+</code></pre></li>
+<li><p>删除多个数据库的语法：</p>
+<pre><code>drop database 数据库名称1，数据库名称2,...数据库名称n
+</code></pre></li>
+</ol>
+<p>删除数据库的实例：</p>
+<p>分析：先进行判断是否存在数据库，存在就进行删除</p>
+<p>第一种实例：</p>
+<pre><code>if exists(select * from sys.sysdatabases where name=&apos;数据库名称&apos;)
+   drop database 数据库名称
+go   
+</code></pre><p>第二种实例：</p>
+<pre><code>if DB_ID(数据库名称) is not null
+   drop database 数据库名称
+go
+</code></pre><p>###二、数据完整性###</p>
+<p>（1）、数据库完整性：正确性和一致性的机制。</p>
+<ol>
+<li>域完整性：字段的完整性（check、default）。</li>
+<li>实体完整性：不能有两条一模一样的数据（主键、唯一、标识（自增））。</li>
+<li>参照完整性：引用完整（外键）。</li>
+<li>用户定义完整性：用户添加的约束。</li>
+</ol>
+<p>（2）、使用SQL语句为表创建和删除约束</p>
+<p>（3）、添加约束语法：</p>
+<pre><code>alter table 表名
+   add constraint 约束名称 约束类型 约束类型
+</code></pre><ul>
+<li><p>主键约束</p>
+<pre><code>alter table 表名
+   add constraint 约束名称 primary key(字段[,...n])
+</code></pre></li>
+</ul>
+<p><strong>注意事项：</strong>命名时主键一般简称写为“PK”</p>
+<ul>
+<li><p>唯一约束</p>
+<pre><code>alter table 表名
+   add constraint 约束名称 unique(字段[,...n])
+</code></pre></li>
+</ul>
+<p><strong>注意事项：</strong>命名时唯一约束一般简称写为“UQ”</p>
+<ul>
+<li><p>默认值约束</p>
+<pre><code>alter table 表名
+   add constraint 约束名称 default 默认值 for 字段
+</code></pre></li>
+</ul>
+<p><strong>注意事项：</strong>命名时默认值约束一般简称写为“DF”,默认值可以为常量或者为空(NULL)。</p>
+<ul>
+<li><p>检查约束</p>
+<pre><code>alter table 表名
+   add constraint 约束名称 check(逻辑表达式)
+</code></pre></li>
+</ul>
+<p><strong>注意事项：</strong></p>
+<ol>
+<li>命名时检查约束一般简称写为“CK”</li>
+<li>字段的长度约束如：len(字段)=6，设置字段的长度等于6位。</li>
+<li>表达式可以使用and或者or连接逻辑表达式。</li>
+</ol>
+<p><br></p>
+<ul>
+<li><p>外键约束</p>
+<pre><code>alter table 表名
+   add constraint 约束名称
+      foreign key (从表字段) references 主表表名(主表字段）
+</code></pre></li>
+</ul>
+<p><strong>注意事项：</strong></p>
+<ol>
+<li>命名时外键一般简称写为“FK”。</li>
+<li>外键关联必须是主键或者候补键、唯一键。</li>
+<li>foreign key（从表字段）可以省略。</li>
+</ol>
+<p>（4）、删除约束语法：</p>
+<pre><code>alter table 表名
+   dorp [constraint]约束名称
+</code></pre><p>###三、数据库的安全管理###<br>（1）、身份验证模式</p>
+<p>存在两个身份验证模式：</p>
+<ol>
+<li>Windows身份验证模式</li>
+<li>SQL Server身份验证模式</li>
+</ol>
+<p>（2）、登录账号</p>
+<ul>
+<li><p>创建登录账号</p>
+<pre><code>create login 登录名称 with password=&apos;登录密码&apos;
+</code></pre></li>
+<li><p>修改登录名或密码</p>
+<pre><code>alter login 登录名称 with name=新登录名称
+alter login 登录名称 with password=新登录密码
+alter login 登录名称 with name=新登录名称,password=新登录密码
+</code></pre></li>
+<li><p>启用或禁用登录账号</p>
+<pre><code>alter login 登录名称 enable--启用
+alter login 登录名称 disable--禁用
+</code></pre></li>
+<li><p>删除登录账号</p>
+<pre><code>drop login 登录名称
+</code></pre></li>
+</ul>
+<p><strong>注意事项：</strong></p>
+<ol>
+<li>不能删除正在使用的登录名。</li>
+<li>不能删除任何安全对象、服务器级别对象、sql代理作业的登录名</li>
+</ol>
+<p>（3）、数据库用户</p>
+<ul>
+<li><p>创建数据库用户</p>
+<pre><code>create user 用户名称 for或from login 登录名
+</code></pre></li>
+</ul>
+<p><strong>注意事项：</strong></p>
+<ol>
+<li>一个登录账号对于一个数据库只能有一个数据库用户。</li>
+<li>创建数据库用户前必须引用数据库。</li>
+</ol>
+<p><br></p>
+<ul>
+<li><p>修改数据库用户</p>
+<pre><code>alter user 用户名称 with name=用户新名称
+</code></pre></li>
+<li><p>删除数据库用户</p>
+<pre><code>drop user 用户名称
+</code></pre></li>
+</ul>
+<p>（4）、授权</p>
+<ol>
+<li>数据对象权限(DML):select、update、delete、insert、execute等语句权限。</li>
+<li>语句权限(DDL):create database、create table等。</li>
+<li>隐含权限：自动生成的权限。</li>
+</ol>
+<p>（5）、用户权限管理</p>
+<ul>
+<li><p>授予(grant):对用户授予某种权限。</p>
+<pre><code>grant 权限 [on 表名[字段]] to 数据库用户
+实例一：
+   grant select on 表名 to 数据库用户
+实例二：
+   grant select to 数据库用户
+</code></pre></li>
+<li><p>收回(revoke):对用户收回(删除)已授权的权限。</p>
+<pre><code>revoke 权限 [on 表名[字段]] to 数据库用户
+实例一：
+   revoke select on 表名 to 数据库用户
+实例二：
+   revoke select to 数据库用户
+</code></pre></li>
+<li><p>禁用(deny):禁止用户拥有某种权限。</p>
+<pre><code>deny 权限 [on 表名[字段]] to 数据库用户
+实例一：
+   deny select on 表名 to 数据库用户
+实例二：
+   deny select to 数据库用户
+</code></pre></li>
+</ul>
+
+    
+
     
 </div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+
+
+
+
+
+
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+        <a href="/2017/04/23/第一章/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
