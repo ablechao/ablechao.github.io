@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title></title>
+      <url>/2017/04/26/%E7%AC%AC%E4%BA%8C%E7%AB%A0/</url>
+      <content type="html"><![CDATA[<!DOCTYPE html>
+<html>
+<head>
+<title>第二章</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+<script >hljs.initHighlightingOnLoad();</script>  
+/* Solarized (Dark) */
+/* Authors: Ethan Schoonover: http://ethanschoonover.com/solarized, CodeCatalyst: http://codecatalyst.com/ */
+/* Version: d9a83f4e7a47432baff86e1e7946d9e066cf3d1b (modified) */
+/* https://github.com/CodeCatalyst/mou-theme-solarized */
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+ol,
+ul,
+li,
+img {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+html * {
+  font-family: "ff-din-web-pro-1", "ff-din-web-pro-2", sans-serif;
+  font-size: 16px;
+  line-height: 19.2px;
+  color-profile: sRGB;
+}
+body {
+  min-width: 32em;
+  max-width: 52em;
+  margin: 10px;
+}
+p {
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+strong {
+  font-weight: bold;
+}
+ol,
+ul {
+  margin-left: 2em;
+  margin-bottom: 20px;
+}
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+  margin-top: 10px;
+}
+li {
+  margin-bottom: 10px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: lighter;
+  text-transform: capitalize;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 24.624px;
+  line-height: 29.548799999999996px;
+}
+h2 {
+  font-size: 24.624px;
+  line-height: 29.548799999999996px;
+}
+h3 {
+  font-size: 23.44px;
+  line-height: 28.128px;
+}
+h4 {
+  font-size: 22.16px;
+  line-height: 26.592px;
+}
+h5 {
+  font-size: 22.16px;
+  line-height: 26.592px;
+}
+h6 {
+  font-size: 22.16px;
+  line-height: 26.592px;
+}
+img {
+  margin-bottom: 20px;
+}
+h1 img,
+h2 img,
+h3 img,
+h4 img,
+h5 img,
+h6 img,
+p img {
+  margin-bottom: 0;
+}
+pre {
+  margin-bottom: 20px;
+  color:#00ff65;
+}
+pre,
+code {
+  font-family: monospace;
+}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  padding: 15px;
+}
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 1px solid;
+}
+h3,
+h4,
+h5,
+h6 {
+  border-bottom: none;
+}
+html {
+  color: #000000;
+}
+html body {
+  background-color: #FFFFFF;
+}
+html h1,
+html h2,
+html h3,
+html h4,
+html h5,
+html h6 {
+  color: #93a1a1;
+  border-color: #839496;
+}
+html a,
+html a:active,
+html a:visited {
+  color: #93a1a1;
+  text-decoration: none;
+  
+}
+html a:hover {
+  text-decoration: underline;
+}
+html pre {
+  color: #00ff65;
+  background-color: #073642;
+}
+html a,
+html a:active,
+html a:visited,
+html code.url {
+  color: blue;
+}
+html h1 {
+  color: #000000;
+}
+html h2,
+html h3,
+html h4,
+html h5,
+html h6 {
+  color: #000000;
+}
+
+/*
+LICENSE
+
+Solarized Theme for Mou
+
+Copyright (c) 2012 CodeCatalyst, LLC
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Solarized
+
+Copyright (c) 2011 Ethan Schoonover
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+</style>
+</head>
+<body>
+<p><link href="http://cdn.bootcss.com/highlight.js/8.0/styles/monokai_sublime.min.css" rel="stylesheet"><br>
+<script src="http://cdn.bootcss.com/highlight.js/8.0/highlight.min.js"></script><br>
+<script>hljs.initHighlightingOnLoad();</script></p>
+<h1>第二章</h1>
+<h3>一、使用SQL语句管理数据库</h3>
+<p>（1）、创建数据库<br></p>
+<p>创建数据库的实例：</p>
+<pre><code>  create database HR(数据库名称)
+  on [primary]  --文件组，默认，[]可以省略
+  (
+     name='test_mdf',   --主数据文件的逻辑名
+     filename='e:\yujun\test_mdf.mdf', --主数据文件的物理名
+     size=3mb,  --主数据初始大小
+     maxsize=100mb  ,--主数据最大空间大小
+     filegrowth=15% --主数据文件的增长率(可以是百分百，也可以是具体的数值：1mb)
+  )
+  log on
+  (
+     name='test_ldf',   --日志数据文件的逻辑名
+     filename='e:\yujun\test_ldf.ldf', --日志数据文件的物理名
+     size=3mb,  --日志数据初始大小
+     maxsize=100mb  ,--日志数据最大空间大小
+     filegrowth=1mb --日志数据文件的增长率(可以是百分百，也可以是具体的数值：1mb)
+  )
+</code></pre>
+
+<p><strong>注意事项：</strong></p>
+<ol>
+<li>创建数据库指定的数据文件大小必须大于等于3MB。</li>
+<li>filename参数指定的路径必须存在，否则将报错。</li>
+</ol>
+<p>（2）、删除数据库库<br></p>
+<ol>
+<li>
+<p>删除单个数据库的语法：</p>
+<pre><code> drop database 数据库名称
+</code></pre>
+
+</li>
+<li>
+<p>删除多个数据库的语法：</p>
+<pre><code> drop database 数据库名称1，数据库名称2,...数据库名称n
+</code></pre>
+
+</li>
+</ol>
+<p>删除数据库的实例：</p>
+<p>分析：先进行判断是否存在数据库，存在就进行删除</p>
+<p>第一种实例：</p>
+<pre><code>  if exists(select * from sys.sysdatabases where name='数据库名称')
+     drop database 数据库名称
+  go   
+</code></pre>
+
+<p>第二种实例：</p>
+<pre><code>  if DB_ID(数据库名称) is not null
+     drop database 数据库名称
+  go
+</code></pre>
+
+<h3>二、数据完整性</h3>
+<p>（1）、数据库完整性：正确性和一致性的机制。</p>
+<ol>
+<li>域完整性：字段的完整性（check、default）。</li>
+<li>实体完整性：不能有两条一模一样的数据（主键、唯一、标识（自增））。</li>
+<li>参照完整性：引用完整（外键）。</li>
+<li>用户定义完整性：用户添加的约束。</li>
+</ol>
+<p>（2）、使用SQL语句为表创建和删除约束</p>
+<p>（3）、添加约束语法：</p>
+<pre><code>     alter table 表名
+        add constraint 约束名称 约束类型 约束类型
+</code></pre>
+
+<ul>
+<li>
+<p>主键约束</p>
+<pre><code> alter table 表名
+    add constraint 约束名称 primary key(字段[,...n])
+</code></pre>
+
+</li>
+</ul>
+<p><strong>注意事项：</strong>命名时主键一般简称写为“PK”</p>
+<ul>
+<li>
+<p>唯一约束</p>
+<pre><code> alter table 表名
+    add constraint 约束名称 unique(字段[,...n])
+</code></pre>
+
+</li>
+</ul>
+<p><strong>注意事项：</strong>命名时唯一约束一般简称写为“UQ”</p>
+<ul>
+<li>
+<p>默认值约束</p>
+<pre><code> alter table 表名
+    add constraint 约束名称 default 默认值 for 字段
+</code></pre>
+
+</li>
+</ul>
+<p><strong>注意事项：</strong>命名时默认值约束一般简称写为“DF”,默认值可以为常量或者为空(NULL)。</p>
+<ul>
+<li>
+<p>检查约束</p>
+<pre><code> alter table 表名
+    add constraint 约束名称 check(逻辑表达式)
+</code></pre>
+
+</li>
+</ul>
+<p><strong>注意事项：</strong></p>
+<ol>
+<li>命名时检查约束一般简称写为“CK”</li>
+<li>字段的长度约束如：len(字段)=6，设置字段的长度等于6位。</li>
+<li>表达式可以使用and或者or连接逻辑表达式。</li>
+</ol>
+<p><br></p>
+<ul>
+<li>
+<p>外键约束</p>
+<pre><code> alter table 表名
+    add constraint 约束名称
+       foreign key (从表字段) references 主表表名(主表字段）
+</code></pre>
+
+</li>
+</ul>
+<p><strong>注意事项：</strong></p>
+<ol>
+<li>命名时外键一般简称写为“FK”。</li>
+<li>外键关联必须是主键或者候补键、唯一键。</li>
+<li>foreign key（从表字段）可以省略。</li>
+</ol>
+<p>（4）、删除约束语法：</p>
+<pre><code>  alter table 表名
+     dorp [constraint]约束名称
+</code></pre>
+
+<h3>三、数据库的安全管理</h3>
+<p>（1）、身份验证模式</p>
+<p>存在两个身份验证模式：
+1. Windows身份验证模式
+2. SQL Server身份验证模式</p>
+<p>（2）、登录账号</p>
+<ul>
+<li>
+<p>创建登录账号</p>
+<pre><code> create login 登录名称 with password='登录密码'
+</code></pre>
+
+</li>
+<li>
+<p>修改登录名或密码</p>
+<pre><code> alter login 登录名称 with name=新登录名称
+ alter login 登录名称 with password=新登录密码
+ alter login 登录名称 with name=新登录名称,password=新登录密码
+</code></pre>
+
+</li>
+<li>
+<p>启用或禁用登录账号</p>
+<pre><code> alter login 登录名称 enable--启用
+ alter login 登录名称 disable--禁用
+</code></pre>
+
+</li>
+<li>
+<p>删除登录账号</p>
+<pre><code> drop login 登录名称
+</code></pre>
+
+</li>
+</ul>
+<p><strong>注意事项：</strong></p>
+<ol>
+<li>不能删除正在使用的登录名。</li>
+<li>不能删除任何安全对象、服务器级别对象、sql代理作业的登录名</li>
+</ol>
+<p>（3）、数据库用户</p>
+<ul>
+<li>
+<p>创建数据库用户</p>
+<pre><code> create user 用户名称 for或from login 登录名
+</code></pre>
+
+</li>
+</ul>
+<p><strong>注意事项：</strong></p>
+<ol>
+<li>一个登录账号对于一个数据库只能有一个数据库用户。</li>
+<li>创建数据库用户前必须引用数据库。</li>
+</ol>
+<p><br></p>
+<ul>
+<li>
+<p>修改数据库用户</p>
+<pre><code> alter user 用户名称 with name=用户新名称
+</code></pre>
+
+</li>
+<li>
+<p>删除数据库用户</p>
+<pre><code> drop user 用户名称
+</code></pre>
+
+</li>
+</ul>
+<p>（4）、授权</p>
+<ol>
+<li>数据对象权限(DML):select、update、delete、insert、execute等语句权限。</li>
+<li>语句权限(DDL):create database、create table等。</li>
+<li>隐含权限：自动生成的权限。</li>
+</ol>
+<p>（5）、用户权限管理</p>
+<ul>
+<li>
+<p>授予(grant):对用户授予某种权限。</p>
+<pre><code> grant 权限 [on 表名[字段]] to 数据库用户
+ 实例一：
+    grant select on 表名 to 数据库用户
+ 实例二：
+    grant select to 数据库用户
+</code></pre>
+
+</li>
+<li>
+<p>收回(revoke):对用户收回(删除)已授权的权限。</p>
+<pre><code> revoke 权限 [on 表名[字段]] to 数据库用户
+ 实例一：
+    revoke select on 表名 to 数据库用户
+ 实例二：
+    revoke select to 数据库用户
+</code></pre>
+
+</li>
+<li>
+<p>禁用(deny):禁止用户拥有某种权限。</p>
+<pre><code> deny 权限 [on 表名[字段]] to 数据库用户
+ 实例一：
+    deny select on 表名 to 数据库用户
+ 实例二：
+    deny select to 数据库用户
+</code></pre>
+
+</li>
+</ul>
+
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title></title>
+      <url>/2017/04/23/%E7%AC%AC%E4%B8%80%E7%AB%A0/</url>
+      <content type="html"><![CDATA[<p><br></p>
+<p>#第一章&emsp;数据库设计#<br><strong>一、良好的数据库设计优点</strong><br></p>
+<ol>
+<li>节省数据存储空间</li>
+<li>能保证数据的完整性</li>
+<li>方便应用程序的开发</li>
+</ol>
+<p><strong>二、数据库概念模型</strong></p>
+<ol>
+<li>实体：客观存在并可以相互区分的事物叫做实体（类似于java中的对象）</li>
+<li>属性：实体的特征，通过属性来对实体进行描述</li>
+<li>键：<ul>
+<li>主键：不能有重复的行，该字段不能为空</li>
+<li>外键：只能关联主键或唯一键</li>
+<li>唯一键：不能有重复的值，可以为空，但是只能有一个空</li>
+</ul>
+</li>
+<li>实体型：实体类型，形同的实体就是同一类型</li>
+<li>实体集：同类实体的集合叫做实体集</li>
+<li>联系：实体之间的关系，比如：教师和学生有教和学关系</li>
+</ol>
+<p><strong>三、实体之间的关系</strong></p>
+<ol>
+<li>一对一的关系（如：一个人只能有一个身份证）</li>
+<li>一对多或多对一的关系：（如：一个班级对多个学生，反之，多个学生对应一个班）</li>
+<li>多对多的关系：（如：一个学生可以选多门课程，一门课程可以被多名学生选取）</li>
+</ol>
+<p><strong>四、E-R模型的图形描述</strong></p>
+<ol>
+<li>实体：用方框表示，在框内写上实体名。</li>
+<li>属性：用椭圆框表示，在框内写上属性名。</li>
+<li>关系：菱形框表示，菱形框内要有关系名。</li>
+</ol>
+<p><strong>五、范式理论</strong></p>
+<p>&emsp;&emsp;范式按照规范化的级别分为5种：第一范式（1NF）、第一范式（1NF）、第二范式（2NF）、第三范式（3NF）、第四范式（4NF）、第五范式（5NF），通常用到前三种范式。</p>
+<ol>
+<li>第一范式：每一个数据项都不能拆分成两个或两个以上的数据项（保证其原子性）。</li>
+<li>第二范式：把依赖主键的字段放在同一个表中。</li>
+<li>第三范式：消除传递依赖部分，解决数据的删除异常问题。</li>
+</ol>
+<p><strong>六、软件开发的周期</strong></p>
+<p>&emsp;&emsp;需求分析、概念设计、详细设计、代码开发、软件测试、安装部署。</p>
+]]></content>
+      
+        
+    </entry>
+    
+  
+  
+</search>
